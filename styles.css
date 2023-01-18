@@ -1,0 +1,141 @@
+html {
+  font-family: "Outfit", sans-serif;
+}
+body {
+  background-color: #0d192c;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.component-container {
+  padding: 24px;
+  height: 596px;
+  width: 350px;
+  border-radius: 15px;
+  background-color: #15263f;
+}
+.image1 {
+  margin-bottom: 24px;
+  height: 302px;
+  width: 302px;
+  border-radius: 8px;
+}
+.change {
+  height: 302px;
+  width: 302px;
+  background: linear-gradient(
+      hsla(178, 100%, 50%, 0.5),
+      hsla(178, 100%, 50%, 0.5)
+    ),
+    url(./images/image-equilibrium.jpg);
+  background-size: cover;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  opacity: 0;
+}
+.change:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.image1:hover {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7)),
+    url(./images/image-equilibrium.jpg);
+
+  cursor: pointer;
+}
+
+h1 {
+  color: White;
+  font-weight: 600;
+  font-size: 22px;
+  margin-bottom: 16px;
+}
+h1:hover {
+  color: #00fff8;
+  cursor: pointer;
+}
+
+p {
+  height: 52px;
+  width: 302px;
+
+  color: #8bacd9;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.icons-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 52px;
+  width: 302px;
+  margin-bottom: 16px;
+}
+.icon {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+.price {
+  color: #00fff8;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+}
+.time {
+  color: #8bacd9;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+.line {
+  height: 1px;
+  width: 302px;
+
+  border-radius: 0px;
+  background: #2e405a;
+  margin-bottom: 22px;
+}
+.name {
+  color: white;
+}
+.name:hover {
+  color: #00fff8;
+  cursor: pointer;
+}
+
+.footer {
+  display: flex;
+
+  align-items: center;
+  color: #8bacd9;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.footer-text {
+  font-size: 16px;
+}
+
+.image4 {
+  height: 33px;
+  width: 33px;
+
+  border: 1px solid #fff;
+  border-radius: 50%;
+  margin-right: 16px;
+}
