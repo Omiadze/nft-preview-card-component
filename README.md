@@ -14,7 +14,7 @@ Users should be able to:
 ### Links
 
 
-- Live Site URL: [[Add live site URL here](https://omiadze.github.io/nft-preview-card-component/)]
+- Live Site URL: [[live site URL here](https://omiadze.github.io/nft-preview-card-component/)]
 
 ## My process
 
